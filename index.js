@@ -28,11 +28,20 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  
+
+      Counter 1 is using a local variable that is inside a function. 
+      Counter 2 is using a global variable that is accessed outside the function.
+      
   2. Which of the two uses a closure? How can you tell?
+        
+      Counter 2 is using closure because the variable it is accessing is outside of the function.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
+
+      Counter 1 is preferred when used in larger applications. It makes the code easier to read and maintain.
+      Counter 2 is preferred when used in smaller applications. It minimizes local variable creation and uses less memory.
+
 */
 
 // counter1 code
