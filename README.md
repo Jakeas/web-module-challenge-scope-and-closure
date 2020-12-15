@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+    Closure is being able to go up and outside of the function to the parent but not being able to have the parent go down into the child function or inside of the nested function.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +66,17 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+a. Where is closure used in this code? How can you tell? 
+
+Closure is happening with dansRoll and zoesRoll because they are global variables outside of the function.
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
+
+It says "Dan rolled a ___" every time the function is run and the thing that changes is the random number. 
+
 c. What is the lexical scope of `newRoll`? 
+
+Global
 
 
 ### Task 3 - Stretch Goals
